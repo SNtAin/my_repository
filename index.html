@@ -8,13 +8,14 @@
 </head>
 <body>
     <!-- Это параграф -->
-<p>
-    Hello World!
-    Hi here!
-    What' up? 
-</p>
+    <p>
+        Hello World!
+        Hi here!
+        What' up? 
+    </p>
 <!-- добавление ID для якорной ссылки  -->
-<header id="header"></header>
+    <header id="header"></header>
+    
     <h1>заголовок 1</h1>
     <h2>заголовок 2</h2>
     <!-- перечень с точкой -->
@@ -42,12 +43,21 @@
     <!-- добавил figure, куда помещается изображение и figcaption для описание картинки -->
     <figure>
     <!-- изображение с отностильной ссылкой, тег alt - описание изоражения(короткая подпись) в случае если картинка не загрузится-->
-            <img src="./images/gnom_red.jpeg" alt="Красный гном">
+        <img 
+            src="./images/gnom_red.jpeg"
+            alt="Красный гном"
+            width="100"
+        />
         <figcaption>Красный гном</figcaption>
     </figure>
     <figure>
             <!-- изображение с относительной ссылкой -->
-            <img src="https://klike.net/uploads/posts/2020-01/1578214113_6.jpg" alt="ворчливый красный гном">
+            <!-- width за дает ширину картинки в пикселях -->
+            <img 
+            src="https://klike.net/uploads/posts/2020-01/1578214113_6.jpg" 
+            alt="ворчливый красный гном"
+            width="100"
+            />
         <figcaption>Ворчливый красный гном</figcaption>        
     </figure>
     <!-- добавление якорной ссылки -->
