@@ -1,0 +1,48 @@
+/* Применится ко всем абзацам на странице */
+p {
+    font-size: 16px;
+}
+/* Применится ко всем ссылкам на странице */
+
+a {
+    text-decoration: none;
+}
+/* Применится ко всем тегам с классом title */
+
+.title {
+    font-weight: 500;
+}
+
+/* Применится ко всем тегам с классом text */
+
+.text{
+    color: brown;
+    font-size: 24;
+}
+/* Применится ко всем тегам с классом link */
+
+.link{  
+    text-decoration: none;
+}
+
+/* Общие стили для всех оповещений */
+
+.alert {
+    font-size: 18;
+    font-weight: 500;
+}
+
+.succes {
+    color: green;
+}
+.warning {
+    color: orange;
+}
+.error {
+    color: red;
+}
+
+#title {
+    font-weight: 500;
+    color: orange;
+}

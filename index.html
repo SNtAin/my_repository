@@ -5,6 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Name's autor</title>
+    <link rel="stylesheet" href="./css/style.css">   
+    <!-- <style type="text/css">
+        p{
+            color: blue;
+            font-size: 24px;
+        }
+
+        </style> -->
 </head>
 <body>
     <!-- Это параграф -->
@@ -132,6 +140,64 @@
         </tr>
     </tbody>
 </table>
+
+<!-- Разметка терминов и их описания -->
+<dl>
+    <dt>One</dt>
+    <dd>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, nulla perferendis vero voluptates optio ab possimus id atque magnam beatae aliquam nobis, nisi illo dicta accusantium molestias modi ea eius.
+    </dd>
+    <dt>Two</dt>
+    <dd>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam beatae fugit iusto sequi, sapiente aliquam ab perspiciatis est vel animi inventore tempore ipsa adipisci necessitatibus, doloremque unde voluptatum aperiam accusantium.
+    </dd>
+    <dt>Three</dt>
+    <dd>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis tempora incidunt et ullam ad! Odio autem qui, obcaecati ab ea, repudiandae odit non laudantium voluptatem facere dolor beatae tempora laborum.
+    </dd>
+</dl>
+<!-- преформатированный текст с принудительными переносами строк -->
+<pre>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    Eaque tempore excepturi dignissimos id tenetur, 
+    expedita doloremque enim, reprehenderit facilis dolore cum reiciendis. 
+    Blanditiis illo nemo atque maxime, corporis quis fugit!
+</pre>
+<!-- текст в верхнем и нижнем индексе -->
+<p>Площать команты равна 22м<sup>2</sup></p>
+<p>Формула воды - H<sub>2</sub>O</p>
+<p>Решите уровнение: a<sup>3</sup>+b<sup>2</sup>=4</p>
+
+<!-- тег strong усиливает на текст жирным и у читалок интонацией -->
+<p><strong>Внимание!</strong>Впереди обрыв</p>
+<!-- тег b просто выделяет текст жирным -->
+<p><b>Жирный текст</b></p>
+<!-- i италик - курсив -->
+<p><i>курсив</i>текст</p>
+
+<!-- Стили  -->
+<p style="color:blue; font-size:24px;">Синий текст 24px</p>
+
+
+<!-- заданый class  -->
+<section>
+    <h1 class="title">What's up?</h1>
+    <p class="text">
+        Nothing spection
+        <a class="link" href="">My prog
+        </a>
+    </p>
+</section>
+<!-- несколько class у одного элемента -->
+<section>
+    <p class="alert success">Пополнение счета выполнено</p>
+    <p class="alert warning">Внимание, будут изменены тарифы</p>
+    <p class="alert error">Ошибка проведения транзакции</p>
+</section>
+
+<!-- id должен быть уникальным на страницу, т.е. не может быть двух элементов с одинковыми значениями  -->
+<!-- id лучше оставить для якорей -->
+<h1 id="title">Заголовок страницы</h1>
 
 
 </body>
