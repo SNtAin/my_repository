@@ -46,3 +46,42 @@ a {
     font-weight: 500;
     color: orange;
 }
+/* селектор потомка */
+/* задает стиль всем ссылкам внтури списка */
+
+.social-liks a {
+    color: blue;
+    text-decoration: none;
+}
+
+/* селектор ребенка */
+/* позволяет выбрать ребенка внутри родительского элемента */
+
+.menu > li {
+    border: 1px solid tomato;
+}
+
+.submenu > li {
+    border: 1px solid black;
+}
+
+/* элемент[атрибут] */
+
+a[title]{
+    color: teal;
+}
+
+/* < !-- элемент[атрибут="значение"] --> */
+
+/* a[href="https://htmlreference.io"]
+{
+    color: yellow;
+}
+a[href="https://cssreference.io"]
+{
+    color: bisque;
+}
+a[href="https://www.youtube.com"]
+{
+    color: red;
+} */
