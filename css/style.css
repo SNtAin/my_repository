@@ -1,38 +1,38 @@
 /* Применится ко всем абзацам на странице */
-p {
+/* p {
     font-size: 16px;
-}
+} */
 /* Применится ко всем ссылкам на странице */
-
+/* 
 a {
     text-decoration: none;
-}
+} */
 /* Применится ко всем тегам с классом title */
 
-.title {
+/* .title {
     font-weight: 500;
-}
+} */
 
 /* Применится ко всем тегам с классом text */
-
+/* 
 .text{
     color: brown;
     font-size: 24;
-}
+} */
 /* Применится ко всем тегам с классом link */
 
-.link{  
+/* .link{  
     text-decoration: none;
-}
+} */
 
 /* Общие стили для всех оповещений */
 
-.alert {
+/* .alert {
     font-size: 18;
     font-weight: 500;
-}
+} */
 
-.succes {
+/* .succes {
     color: green;
 }
 .warning {
@@ -45,19 +45,19 @@ a {
 #title {
     font-weight: 500;
     color: orange;
-}
+} */
 /* селектор потомка */
 /* задает стиль всем ссылкам внтури списка */
-
+/* 
 .social-liks a {
     color: blue;
     text-decoration: none;
-}
+} */
 
 /* селектор ребенка */
 /* позволяет выбрать ребенка внутри родительского элемента */
 
-.menu > li {
+/* .menu > li {
     border: 1px solid tomato;
 }
 
@@ -67,9 +67,9 @@ a {
 
 /* элемент[атрибут] */
 
-a[title]{
+/* a[title]{
     color: teal;
-}
+} */ */
 
 /* < !-- элемент[атрибут="значение"] --> */
 
